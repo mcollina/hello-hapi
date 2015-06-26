@@ -1,5 +1,5 @@
 {
-  "name": "@matteocollina/asset-service-pg",
+  "name": "@matteo.collina/assets-service-pg",
   "version": "0.0.1",
   "description": "Manage Assets, with node and postgres",
   "main": "assets.js",
