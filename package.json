@@ -1,0 +1,31 @@
+{
+  "name": "@matteocollina/asset-service-pg",
+  "version": "0.0.1",
+  "description": "Manage Assets, with node and postgres",
+  "main": "assets.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "tape test.js | faucet"
+  },
+  "precommit": ["lint", "test"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/asset-service-pg.git"
+  },
+  "keywords": [
+    "asset",
+    "manage"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/asset-service-pg/issues"
+  },
+  "homepage": "https://github.com/mcollina/asset-service-pg#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "pre-commit": "^1.0.10",
+    "standard": "^4.3.3",
+    "tape": "^4.0.0"
+  }
+}
