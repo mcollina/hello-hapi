@@ -5,9 +5,12 @@
   "main": "assets.js",
   "scripts": {
     "lint": "standard",
-    "test": "tape test.js | faucet"
+    "test": "lab test.js"
   },
-  "precommit": ["lint", "test"],
+  "precommit": [
+    "lint",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mcollina/asset-service-pg.git"
@@ -23,9 +26,14 @@
   },
   "homepage": "https://github.com/mcollina/asset-service-pg#readme",
   "devDependencies": {
-    "faucet": "0.0.1",
+    "code": "^1.4.1",
+    "lab": "^5.11.1",
     "pre-commit": "^1.0.10",
-    "standard": "^4.3.3",
-    "tape": "^4.0.0"
+    "standard": "^4.3.3"
+  },
+  "dependencies": {
+    "hapi": "^8.6.1",
+    "minimist": "^1.1.1",
+    "xtend": "^4.0.0"
   }
 }
