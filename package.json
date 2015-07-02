@@ -2,9 +2,9 @@
   "name": "@matteo.collina/hello-hapi",
   "version": "1.0.1",
   "description": "Hapi hello world",
-  "bin": "hello.js",
   "main": "hello.js",
   "scripts": {
+    "start": "./hello.js",
     "lint": "standard",
     "test": "lab test.js"
   },
