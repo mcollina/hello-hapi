@@ -1,2 +1,3 @@
-# assets-service-pg
-Manage Assets, with node and postgres
+# An Hapi hello world
+
+Nothing really interesting, just a scaffold with tests with lab.
