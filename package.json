@@ -1,8 +1,8 @@
 {
-  "name": "@matteo.collina/assets-service-pg",
-  "version": "0.0.2",
-  "description": "Manage Assets, with node and postgres",
-  "main": "assets.js",
+  "name": "@matteo.collina/hello-hapi",
+  "version": "1.0.0",
+  "description": "Hapi hello world",
+  "main": "hello.js",
   "scripts": {
     "lint": "standard",
     "test": "lab test.js"
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcollina/asset-service-pg.git"
+    "url": "git+https://github.com/mcollina/hello-hapi.git"
   },
   "keywords": [
     "asset",
@@ -22,9 +22,9 @@
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mcollina/asset-service-pg/issues"
+    "url": "https://github.com/mcollina/hello-hapi/issues"
   },
-  "homepage": "https://github.com/mcollina/asset-service-pg#readme",
+  "homepage": "https://github.com/mcollina/hello-hapi#readme",
   "devDependencies": {
     "code": "^1.4.1",
     "lab": "^5.11.1",
