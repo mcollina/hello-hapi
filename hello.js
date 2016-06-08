@@ -9,7 +9,7 @@ const defaults = {
   port: 8989
 }
 
-function assetsService (opts, cb) {
+function build (opts, cb) {
   opts = xtend(defaults, opts)
 
   const server = new Hapi.Server()
@@ -26,7 +26,7 @@ function assetsService (opts, cb) {
 }
 
 function start (opts) {
-  assetsService(opts, (err, server) => {
+  build(opts, (err, server) => {
     if (err) { throw err }
 
     server.start(function (err) {
@@ -37,7 +37,7 @@ function start (opts) {
   })
 }
 
-module.exports = assetsService
+module.exports = build
 
 if (require.main === module) {
   start(minimist(process.argv.slice(2), {

@@ -3,13 +3,13 @@
 const code = require('code')
 const Lab = require('lab')
 const lab = exports.lab = Lab.script({ output: process.stdout })
-const assetsService = require('../')
+const build = require('../')
 
 lab.experiment('Hello', () => {
   let server
 
   lab.beforeEach((done) => {
-    assetsService({ port: 8989 }, (err, s) => {
+    build({ port: 8989 }, (err, s) => {
       server = s
       done(err)
     })
